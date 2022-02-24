@@ -1,3 +1,7 @@
+AMOR ENCRIPTADO
+Es una pagina en la cual puede cifrar mensajes dirigido a parejas con el objetivo que tengan privacidad al comunicarse cosas privadas entre ellos sin necesidad que otros se enteren.
+
+Pones tu texto en el primer cuadro de texto y seleccionas el desplazamiento que deseas y le das cifrar luego automaticamente te aparecera un mensaje en el otro cuadro en donde dice que "tu texto cifredo es" junto con tu mensaje cifredo y si quisieras decifrar puedes poner tu texto en el primer cuadro, pondras el desplazamiento  con la diferencia que presionaras descifrar y automaticamente en el otro cuadro aparecera " tu texto descifrado es" junto con tu mensaje ya descifrado
 # Cifrado César
 
 ## Índice
