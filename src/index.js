@@ -7,18 +7,18 @@ clearbutton.addEventListener('click', () => {
     document.getElementById("input").focus();
 }
 
-const Cifrado = document.getElementById('Cifrado');
-const Descifrado = document.getElementById('Descifrado');
+const cifrad = document.getElementById('Cifrado');
+const Descifrad = document.getElementById('Descifrado');
 
 
-Cifrado.addEventListener('click', () => {  //Codificar
+Cifrad.addEventListener('click', () => {  //Codificar
     const string = document.getElementById('text').value;
     const offset = document.getElementById('offset').value;
     const textCod = cipher.encode(offset, string);
     document.getElementById('input').innerText = textCod;
     document.getElementById('result').innerText = 'Texto Cifrado';
 });
-Descifrado.addEventListener('click', () => { //Decodificar
+Descifrad.addEventListener('click', () => { //Decodificar
     const string = document.getElementById('text').value;
     const offset = document.getElementById('offset').value;
     const textDeCod = cipher.decode(offset, string);
